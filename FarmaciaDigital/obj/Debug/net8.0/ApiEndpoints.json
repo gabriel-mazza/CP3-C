@@ -1,0 +1,146 @@
+[
+  {
+    "ContainingType": "FarmaciaDigital.Controllers.AdesoesController",
+    "Method": "Solicitar",
+    "RelativePath": "api/Adesoes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "FarmaciaDigital.DTOs.CriarAdesaoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FarmaciaDigital.Controllers.AdesoesController",
+    "Method": "BuscarPorId",
+    "RelativePath": "api/Adesoes/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FarmaciaDigital.Controllers.ClientesController",
+    "Method": "BuscarPorId",
+    "RelativePath": "api/Clientes/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FarmaciaDigital.Controllers.ClientesController",
+    "Method": "CadastrarPF",
+    "RelativePath": "api/Clientes/pf",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "FarmaciaDigital.DTOs.CriarPessoaFisicaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FarmaciaDigital.Controllers.ClientesController",
+    "Method": "CadastrarPJ",
+    "RelativePath": "api/Clientes/pj",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "FarmaciaDigital.DTOs.CriarPessoaJuridicaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FarmaciaDigital.Controllers.FiliaisController",
+    "Method": "Criar",
+    "RelativePath": "api/Filiais",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "FarmaciaDigital.DTOs.CriarFilialDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FarmaciaDigital.Controllers.FiliaisController",
+    "Method": "BuscarPorId",
+    "RelativePath": "api/Filiais/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FarmaciaDigital.Controllers.PlanosController",
+    "Method": "Criar",
+    "RelativePath": "api/Planos",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "FarmaciaDigital.DTOs.CriarPlanoSaudeDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FarmaciaDigital.Controllers.PlanosController",
+    "Method": "BuscarPorId",
+    "RelativePath": "api/Planos/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
